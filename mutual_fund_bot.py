@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ✅ Configure Gemini with your API key (v1 will be used automatically)
-genai.configure(api_key="AIzaSyBQVrnrTerFduCUwKl0nSuBPTmsBXXFHpg")  # Replace with your key
+genai.configure(api_key="Replace with your key")  # Replace with your key
 
 # ✅ Load the Gemini model (correct syntax for v1)
 model = genai.GenerativeModel("gemini-pro")
