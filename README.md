@@ -49,22 +49,24 @@ project/
 git clone https://github.com/your-username/MutualFundAnalyzer.git
 cd MutualFundAnalyzer
 ```
-python -m venv .venv
-source .venv/bin/activate  # For Linux/macOS
-.venv\Scripts\activate     # For Windows
+
 
 2. **Create a virtual environment**
+```
 python -m venv .venv
 source .venv/bin/activate  # For Linux/macOS
 .venv\Scripts\activate     # For Windows
-
-3. Install dependencies
+```
+4. Install dependencies
+```
 pip install -r requirements.txt
-
-4. Set your Gemini API Key
+```
+5. Set your Gemini API Key
+```
 Edit app.py and replace:
 genai.configure(api_key="your_actual_key")
-
-5. Run the app
+```
+6. Run the app
+```
 streamlit run app.py
-
+```
